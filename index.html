@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Oisee</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="promo" style="justify-content:center;text-align:center"><span>Welcome to Oisee</span></div>
+<header class="nav">
+  <a href="#home" class="brand" aria-label="Oisee"><svg class="mark" viewBox="0 0 64 26" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="16" cy="14" r="9.5"/><circle cx="48" cy="14" r="9.5"/><path d="M25.5 12Q32 6 38.5 12M6.5 12L2 9M57.5 12L62 9"/><circle class="pupil" cx="16" cy="14" r="3.2" fill="currentColor" stroke="none"/><circle class="pupil" cx="48" cy="14" r="3.2" fill="currentColor" stroke="none"/></svg><span class="word" aria-hidden="true"><b style="--i:0">O</b><b style="--i:1">i</b><b style="--i:2">s</b><b style="--i:3">e</b><b style="--i:4">e</b></span></a>
+  <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  <nav class="links" id="links"></nav>
+</header>
+<main>
+  <section id="home" class="mhero" aria-label="Welcome">
+    <div class="blobs" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="mh-bg" aria-hidden="true"><span style="--x:8%;--s:10px;--d:11s;--dl:0s"></span><span style="--x:22%;--s:6px;--d:14s;--dl:3s"></span><span style="--x:37%;--s:14px;--d:16s;--dl:6s"></span><span style="--x:52%;--s:8px;--d:12s;--dl:2s"></span><span style="--x:66%;--s:12px;--d:15s;--dl:8s"></span><span style="--x:79%;--s:7px;--d:13s;--dl:4s"></span><span style="--x:91%;--s:10px;--d:17s;--dl:1s"></span><span style="--x:15%;--s:5px;--d:10s;--dl:7s"></span></div>
+    <div class="mh-grid">
+      <div class="mh-left"><p>Premium eyewear and bespoke lens services for city life. Find your perfect fit, then send us an inquiry.</p><a href="#frametypes" class="mh-more">Read More</a></div>
+      <div class="mh-center"><div class="mh-orbit" aria-hidden="true"><i></i></div><div class="mh-circle"></div><div class="mh-img" id="mhImg" aria-hidden="true"></div></div>
+      <div class="mh-right"><h1><span class="ln"><span>see your</span></span><span class="ln"><span class="blue gt">best.</span></span></h1></div>
+    </div>
+    <div class="mh-foot"><div class="mh-social"><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a><a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a></div><div class="mh-loc">Your City, India</div></div>
+  </section>
+  <section id="banners" class="slider" aria-roledescription="carousel">
+    <div class="slides" id="slides">
+      <div class="slide s1"><div><h1>Discover precise vision. Embrace timeless style.</h1><p>Premium eyewear and bespoke lens services for city life. Send us an inquiry or book a consultation.</p><div class="row"><a href="#arrivals" class="btn">Explore new arrivals</a><a href="#inquiry" class="btn ghost">Book a consultation</a></div></div><div class="art" id="a1"></div></div>
+      <div class="slide s2"><div><h1>Redefine your look. Elevate your view.</h1><p>Polarised and tinted sunglasses with 100% UV protection, with prescription options. Urban craftsmanship in every pair.</p><div class="row"><a href="#sun" class="btn">Shop sunglasses</a></div></div><div class="art" id="a2"></div></div>
+      <div class="slide s3"><div><h1>Bespoke lens services</h1><p>Precision lenses cut to your prescription, plus daily, monthly and coloured contact lenses.</p><div class="row"><a href="#lenses" class="btn">View details</a></div></div><div class="art" id="a3"></div></div>
+    <div class="slide poster"><a href="#frametypes" aria-label="Shop new arrivals"><img src="assets/images/hero.jpg" alt="Oisee poster: See your best. Look your best. Premium eyewear, stylish frames, perfect vision. Shop new arrivals."></a></div>
+    </div>
+    <div class="dots" id="dots"></div>
+  </section>
+  <div class="ticker" aria-hidden="true"><div id="tick"></div></div>
+
+  <section class="section" id="finder">
+    <h2>Frames that feel like you</h2>
+    <p class="muted">Pick a shape you like and explore frames in that style.</p>
+    <div class="finder">
+      <div class="big"><div id="bigShape"></div><h3 id="bigName" style="margin-top:.5rem"></h3></div>
+      <div><div class="shapes" id="shapes"></div><a href="#frametypes" class="btn" id="exploreBtn">Explore frames</a></div>
+    </div>
+  </section>
+
+  <section id="view3d" class="section tint">
+    <div class="blobs sm" aria-hidden="true"><i></i><i></i><i></i></div>
+    <h2>See it in 3D</h2>
+    <p class="muted">Drag to rotate. Choose a shape, material and colour, then send us an inquiry for this exact pair.</p>
+    <div class="v3d">
+      <div class="stage" id="stage3d"><span class="hint">Drag to rotate</span></div>
+      <div class="ctl" id="ctl3d">
+        <h3>Shape</h3><div class="chips"><button type="button" class="tab" data-k="shape" data-v="round" aria-pressed="false">Round</button><button type="button" class="tab" data-k="shape" data-v="square" aria-pressed="false">Square</button><button type="button" class="tab" data-k="shape" data-v="cateye" aria-pressed="false">Cat-eye</button><button type="button" class="tab" data-k="shape" data-v="pilot" aria-pressed="false">Pilot</button><button type="button" class="tab" data-k="shape" data-v="geometric" aria-pressed="false">Geometric</button></div>
+        <h3>Frame material</h3><div class="chips"><button type="button" class="tab" data-k="type" data-v="acetate" aria-pressed="false">Acetate</button><button type="button" class="tab" data-k="type" data-v="metal" aria-pressed="false">Metal</button></div>
+        <h3>Lenses</h3><div class="chips"><button type="button" class="tab" data-k="lens" data-v="clear" aria-pressed="false">Clear</button><button type="button" class="tab" data-k="lens" data-v="sun" aria-pressed="false">Sunglasses</button></div>
+        <h3>Colour</h3><div class="chips"><button type="button" class="dot3" data-k="color" data-v="black" aria-label="Black" title="Black" aria-pressed="false" style="background:#111417"></button><button type="button" class="dot3" data-k="color" data-v="tort" aria-label="Tortoise" title="Tortoise" aria-pressed="false" style="background:linear-gradient(135deg,#8a4416,#2a1005 55%,#d9a050)"></button><button type="button" class="dot3" data-k="color" data-v="navy" aria-label="Navy" title="Navy" aria-pressed="false" style="background:#1f3a5f"></button><button type="button" class="dot3" data-k="color" data-v="gold" aria-label="Gold" title="Gold" aria-pressed="false" style="background:linear-gradient(135deg,#f0d489,#b8903a)"></button><button type="button" class="dot3" data-k="color" data-v="silver" aria-label="Silver" title="Silver" aria-pressed="false" style="background:linear-gradient(135deg,#f2f4f6,#aab2ba)"></button></div>
+        <p class="muted" style="margin:1.1rem 0 .9rem">Your pick: <strong id="desc3d"></strong></p>
+        <button class="btn" id="ask3d" type="button">Inquire about this pair</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="arrivals" class="section">
+    <h2>New arrivals</h2>
+    <p class="muted">A look at the latest frames in store. Tap Inquire to ask about any pair.</p>
+    <div class="photos">
+      <figure class="ph"><img alt="Close-up of a tortoiseshell acetate eyeglass frame on a wooden table" loading="lazy" src="assets/images/frame-1.jpg"><figcaption><span class="tag">Acetate</span><h3>Tortoise acetate</h3><p>Warm Havana pattern in a bold full-rim acetate frame.</p><button type="button" class="btn small" data-i="Tortoise acetate frames">Inquire</button></figcaption></figure>
+      <figure class="ph"><img alt="Gold round metal eyeglass frame on a grey fabric surface" loading="lazy" src="assets/images/frame-2.jpg"><figcaption><span class="tag">Metal</span><h3>Gold round metal</h3><p>Slim wire frame with clear nose pads and a light, classic look.</p><button type="button" class="btn small" data-i="Gold round metal frames">Inquire</button></figcaption></figure>
+      <figure class="ph"><img alt="Matte black square eyeglass frame on a marble surface" loading="lazy" src="assets/images/frame-3.jpg"><figcaption><span class="tag">Full-rim</span><h3>Matte black full-rim</h3><p>Clean lines with a metal temple detail for everyday wear.</p><button type="button" class="btn small" data-i="Matte black full-rim frames">Inquire</button></figcaption></figure>
+      <figure class="ph"><img alt="Navy blue cat-eye acetate eyeglass frame on a concrete surface" loading="lazy" src="assets/images/frame-4.jpg"><figcaption><span class="tag">Cat-eye</span><h3>Navy cat-eye</h3><p>Glossy deep-blue acetate with a sculpted, lifted shape.</p><button type="button" class="btn small" data-i="Navy cat-eye frames">Inquire</button></figcaption></figure>
+    </div>
+  </section>
+
+  <section id="frametypes" class="section dark">
+    <div class="blobs sm" aria-hidden="true"><i></i><i></i><i></i></div>
+    <h2>Types of frames</h2>
+    <p class="muted">Pick the build that suits how you live. Ask in store for a free fitting and expert advice.</p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="section" id="sun">
+    <h2>Fresh frames. Fresh you.</h2>
+    <p class="muted">New sunglasses and eyeglasses, swipe to see more.</p>
+    <div class="rail" id="rail"></div>
+  </section>
+
+  <section id="lenses" class="section dark">
+    <div class="blobs sm" aria-hidden="true"><i></i><i></i><i></i></div>
+    <h2>Bespoke lens services</h2>
+    <p class="muted">Precision lenses cut to your prescription, plus daily, monthly and coloured contact lenses.</p>
+    <div class="gallery">
+      <a href="#inquiry"><img alt="Oisee bespoke lens services, urban eyewear collections on a lit plinth" src="assets/images/banner-1.jpg"></a>
+      <a href="#inquiry"><img alt="Oisee store interior with lit shelves. Redefine your look, elevate your view." src="assets/images/banner-2.jpg"></a>
+      <a href="#inquiry"><img alt="Oisee urban craftsmanship. Learn more." src="assets/images/banner-3.jpg"></a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="about">
+      <div><h2>Crafting better vision since 2007</h2><p>From precision-crafted lenses to fashion-forward frames, we help you see better, feel confident and express your individuality. Replace this text with the shop's own story.</p><a href="#inquiry" class="btn">Visit or contact us</a>
+        <div class="stats"><div><b>1</b><span>Store</span></div><div><b>15+</b><span>Years</span></div><div><b>20,000+</b><span>Happy customers</span></div><div><b>4.8</b><span>Google rating</span></div></div></div>
+      <div class="slide" style="display:block;padding:0"><div class="art" id="aboutArt" style="background:var(--tint);border-radius:24px;padding:3rem 1.5rem;display:grid;place-items:center"></div></div>
+    </div>
+  </section>
+
+  <section class="section tint">
+    <h2>More than just glasses</h2>
+    <p class="muted">Why customers choose us.</p>
+    <div class="grid three" style="grid-template-columns:repeat(auto-fit,minmax(190px,1fr))">
+      <div class="tile"><h3>Wide range of styles</h3><p class="muted">Classic to contemporary, for every personality.</p></div>
+      <div class="tile"><h3>Premium lens technology</h3><p class="muted">High-quality lenses for clear, sharper vision.</p></div>
+      <div class="tile"><h3>Blue light protection</h3><p class="muted">Reduce digital strain from screens.</p></div>
+      <div class="tile"><h3>Expert eye care</h3><p class="muted">Qualified optometrists test every eye.</p></div>
+      <div class="tile"><h3>Easy returns and exchanges</h3><p class="muted">Hassle-free, we have you covered.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="visit">
+      <div><h2>Visit our store</h2><p>Experience expert eye care in person, with a free eye test and fitting.</p><a href="#inquiry" class="btn">Find us</a></div>
+      <div><h2>The journal</h2><p>Eye care tips and stories from the world of eyewear.</p><a href="#faq" class="btn ghost">Read the FAQ</a></div>
+    </div>
+  </section>
+
+  <section id="faq" class="section tint">
+    <div class="blobs sm" aria-hidden="true"><i></i><i></i><i></i></div>
+    <h2>Frequently asked questions</h2><p class="muted">Quick answers before you visit.</p>
+    <details><summary>Do I need an appointment for an eye test?</summary><p>No, walk-ins are welcome. Booking through the inquiry form keeps your waiting time short.</p></details>
+    <details><summary>How long does it take to make my glasses?</summary><p>Most single vision glasses are ready in 2 to 4 days. Progressive lenses can take up to a week.</p></details>
+    <details><summary>Can I use my old prescription?</summary><p>Yes, if it is less than a year old. We can retest your eyes if you are unsure.</p></details>
+    <details><summary>Do you offer a warranty?</summary><p>Frames and lenses carry a warranty against manufacturing defects. Ask in store for details.</p></details>
+  </section>
+
+  <section id="inquiry" class="section">
+    <div class="inquiry">
+      <div><h2>Send an inquiry</h2><p class="muted">Tell us what you are looking for. We will reply by phone or email within one working day.</p>
+        <ul class="info"><li><strong>Phone</strong><br>+91 00000 00000</li><li><strong>Email</strong><br>care@oisee.example</li><li><strong>Address</strong><br>Shop No. 12, Main Road, Your City</li><li><strong>Hours</strong><br>Mon–Sat 10:00–20:00, Sun 11:00–17:00</li></ul></div>
+      <form class="form" id="form">
+        <label>Name*<input required name="name" autocomplete="name"></label>
+        <label>Phone*<input required type="tel" name="phone" autocomplete="tel"></label>
+        <label>Email<input type="email" name="email" autocomplete="email"></label>
+        <label>Product or service<input name="product" id="product" list="plist" placeholder="General inquiry"><datalist id="plist"></datalist></label>
+        <label>Message*<textarea required rows="4" name="message"></textarea></label>
+        <button class="btn" type="submit">Send inquiry</button>
+        <p class="ok" id="ok" role="status" hidden>Thank you. We have received your inquiry and will contact you soon.</p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="fcols">
+    <div><h3>Oisee</h3><p style="font-size:.9rem;margin-bottom:.75rem">Eye care and eyewear for the whole family.</p><form class="subscribe" id="sub"><input type="email" required placeholder="Your email" aria-label="Email"><button class="btn small">Subscribe</button></form></div>
+    <div><h3>Inside Oisee</h3><a href="#about">About us</a><a href="#faq">FAQ</a><a href="#inquiry">Home try-on</a><a href="#inquiry">Size guide</a></div>
+    <div><h3>Our policy</h3><a href="#faq">Terms of use</a><a href="#faq">Privacy policy</a><a href="#faq">Warranty policy</a></div>
+    <div><h3>Customer care</h3><a href="#inquiry">Store locator</a><a href="#inquiry">Contact us</a><a href="#faq">FAQ</a></div>
+  </div>
+  <div class="copy">© 2026 Oisee. All rights reserved.</div>
+</footer>
+<a class="wa" href="https://wa.me/910000000000?text=Hi%2C%20I%20need%20help%20with%20eyewear" target="_blank" rel="noopener">WhatsApp us</a>
+<script src="js/script-1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/script-2.js"></script>
+<script src="js/script-3.js"></script>
+<script src="js/script-4.js"></script>
+</body>
+</html>
